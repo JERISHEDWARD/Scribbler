@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Montez', cursive;
+    background-color: aqua;
+  }
+  #logo {
+    font-family: 'Montez', cursive;
+    color: blue;
+    font-size: 45px;
+  }
+  
+  #subheading {
+    font-family: 'Ubuntu Mono', monospace;
+  }
+  
+  #signinBtn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'YourChosenFont', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  #signupBtn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'YourChosenFont', sans-serif;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 145px;
+  }
+.s2 .heading h1 {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.s3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.s3 .four button {
+    padding: 1%;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+}
+
+.content {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.content p {
+    text-align: justify;
+}
+
+.s4 {
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+.s4 button {
+    padding: 10px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+}
+
+.s4 .para {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.s5 {
+    margin-left: 3%;
+    margin-bottom: 1%;
+}
+
+.s5 textarea {
+    padding: 1%;
+}
+
+.s6 {
+    margin-top: 1%;
+    margin-left: 3%;
+}
+
+.s6 button {
+    padding: 6px;
+    font-size: 15px;
+    background-color: red;
+    color: white;
+}
+
+.s7 {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.s7 p {
+    font-size: 18px;
+}
+
+.s8 {
+    background-color: rgba(128, 128, 128, 0.473);
+    margin: 2% 3%;
+    padding: 2%;
+}
+
+.s8 .showcomment {
+    background-color: white;
+    color: black;
+    padding: 1%;
+    font-size: 20px;
+}

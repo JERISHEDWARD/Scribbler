@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style/index.css">
+  <title>Scribbler</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div id="logo">ScriBBler</div>
+      <div id="subheading">Explore, Imagine, Create</div>
+      <button id="signinBtn" onclick="openSigninModal()">Sign In</button>
+      <button id="signupBtn" onclick="openSignupModal()">Sign Up</button>
+    </header>
+
+    <!-- Sign Up Modal -->
+    <div id="signupModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('signupModal')">&times;</span>
+        <h2>Get Started</h2>
+        <input type="text" placeholder="Enter your name" id="nameInput">
+        <input type="text" placeholder="Enter your username" id="usernameInput">
+        <input type="password" placeholder="Enter your password" id="passwordInput">
+        <input type="password" placeholder="Re-enter your password" id="confirmPasswordInput">
+        <button onclick="signup()">Sign Up</button>
+        <p id="signupError" class="error-message"></p>
+      </div>
+    </div>
+
+    <!-- Sign In Modal -->
+    <div id="signinModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('signinModal')">&times;</span>
+        <h2>Welcome Back!</h2>
+        <input type="text" placeholder="Enter your username" id="signinUsernameInput">
+        <input type="password" placeholder="Enter your password" id="signinPasswordInput">
+        <button onclick="signin()">Sign In</button>
+        <p id="signinError" class="error-message"></p>
+        <p>Not a member? <a href="#" onclick="openSignupModal()">Sign Up</a></p>
+      </div>
+    </div>
+    <div class="center-buttons">
+        <button class="main-button" onclick="navigateToAllPosts()" >All Posts</button>
+        <button class="main-button" onclick="openCreatePostModal()">Create Post</button>
+    </div>
+  </div>
+  <!-- Create Post Modal -->
+  <div id="createPostModal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('createPostModal')">&times;</span>
+      <h2>Pen Your Post</h2>
+      <label for="postTitle">Title</label>
+      <input type="text" id="postTitle" placeholder="Enter title of your post">
+      
+      <label for="postContents">Contents</label>
+      <textarea id="postContents" placeholder="Enter the contents of your post"></textarea>
+      
+      <button class="main-button" onclick="createPost()">Create</button>
+    </div>
+  </div>
+
+  <!-- Your other HTML content goes here -->
+
+  <script defer src="script\index.js"></script>
+</body>
+</html>

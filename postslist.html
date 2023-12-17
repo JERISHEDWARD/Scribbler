@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>postlist</title>
+    <link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style\postlist.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+          <div id="logo">ScriBBler</div>
+          <div id="subheading">Explore, Imagine, Create</div>
+          <button id="signinBtn" onclick="openSigninModal()">Sign In</button>
+          <button id="signupBtn" onclick="openSignupModal()">Sign Up</button>
+        </header>
+       
+    <section class="allcardview">
+        <section class="cardview">
+            <div class="one">
+                <h2>Shrushti Gupta</h2>
+            </div>
+
+            <div class="two">
+                <h4><span>Lorem ipsum dolor sit amet.</span>
+                    <a href=""  onclick="openModal(0)" style="text-decoration: none; float: right;">🗑️</a> </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem vitae repellendus inventore corrupti? Temporibus ullam dicta sit! Accusamus magnam ex architecto debitis cumque laborum repellendus excepturi at a reprehenderit explicabo
+                    vel fugiat suscipit odit cupiditate deleniti, rerum exercitationem totam. At provident consectetur deserunt eos vero quas inventore animi sint asperiores.
+                    <a href="" style="text-decoration: none; float: right;"> 💬 </a></p>
+            </div>
+        </section>
+
+
+        <section class="cardview">
+            <div class="one">
+                <h2>Shrushti Gupta</h2>
+            </div>
+
+            <div class="two">
+                <h4><span>Lorem ipsum dolor sit amet.</span>
+                    <a href=""  onclick="openModal(0)" style="text-decoration: none; float: right;">🗑️</a> </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem vitae repellendus inventore corrupti? Temporibus ullam dicta sit! Accusamus magnam ex architecto debitis cumque laborum repellendus excepturi at a reprehenderit explicabo
+                    vel fugiat suscipit odit cupiditate deleniti, rerum exercitationem totam. At provident consectetur deserunt eos vero quas inventore animi sint asperiores.
+                    <a href="" style="text-decoration: none; float: right;"> 💬 </a></p>
+            </div>
+        </section>
+
+
+        <section class="cardview">
+            <div class="one">
+                <h2>Shrushti Gupta</h2>
+            </div>
+
+            <div class="two">
+                <h4><span>Lorem ipsum dolor sit amet.</span>
+                    <a href="" onclick="openModal(0)" style="text-decoration: none; float: right;">🗑️</a> </h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem vitae repellendus inventore corrupti? Temporibus ullam dicta sit! Accusamus magnam ex architecto debitis cumque laborum repellendus excepturi at a reprehenderit explicabo
+                    vel fugiat suscipit odit cupiditate deleniti, rerum exercitationem totam. At provident consectetur deserunt eos vero quas inventore animi sint asperiores.
+                    <a href="" style="text-decoration: none; float: right;"> 💬 </a></p>
+            </div>
+        </section>
+        <div id="myModal" class="modal">
+            <p>Are you sure you want to delete this post?</p>
+            <button onclick="deletePost()">Yes</button>
+            <button onclick="closeModal()">No</button>
+        </div>
+    
+        
+    </div>
+    <script src="script/postlist.js"></script>
+</body>
+</html>
